@@ -1,0 +1,43 @@
+.product-item-details {
+  min-height: 155px;
+}
+  
+.category-view {
+  display: none;
+}
+.sidebar .filter .filter-checkbox {
+  list-style: none;
+}
+.sidebar .items.filter-checkbox li.child {
+  padding: 0
+}
+.sidebar .cdz-checkbox-wrap span {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background: #ECECEC!important;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.36);
+}
+.cdz-checkbox-wrap [type=checkbox]:checked+span {
+  background-color: #586E85!important;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAJCAYAAADkZNYtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABYSURBVHgBjY/RDcAgCES9dAFGcIWO0Ik7Qj87RrsJXgwfakS55EICj8AhBaSqwiJHAMwsL31uQfoz53rCttegNe+u4YGzgQtSaEI8wycXgD+FwuxkC+LNC/lzdt32kP0uAAAAAElFTkSuQmCC')
+!important;
+  background-repeat: no-repeat!important;
+  background-position: 50% 50%!important;
+}
+.block.filter .items .action.remove:hover {
+  background-color: transparent!important;
+}
+.product-list-style-09 .tocart.primary {
+  background-color: #586E85!important;
+  color: #fff!important;
+}
+.product-list-style-09 .tocart.primary:hover {
+  background-color: #2E4053!important;
+}
+@media only screen and (max-width: 767px) {
+  .sidebar .block.filter .block-title.filter-title strong {
+    border-color: #000;
+    background: #000;
+  }
+}

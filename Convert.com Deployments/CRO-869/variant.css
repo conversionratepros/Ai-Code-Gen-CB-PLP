@@ -1,0 +1,496 @@
+html body.recipe_124 #layered-filter-block {
+    background: none;
+}
+
+html body.recipe_124 #layered-filter-block .block-title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Poppins;
+    line-height: 126%;
+    text-transform: capitalize;
+}
+
+html body.recipe_124 #layered-filter-block .block-title strong {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126%;
+    text-transform: capitalize;
+}
+
+html body.recipe_124 #layered-filter-block .block-content.filter-content {
+    padding: 0 !important;
+    background: transparent;
+    border: 0;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current .items {
+    padding: 0;
+    margin-bottom: 0;
+    background: unset;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current {
+    padding: 15px 20px;
+    padding-bottom: 0;
+    margin-bottom: -1px;
+    background: #ffffff;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .filter-options-item.cat {
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .filter-options-item.price {
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 0;
+    background: #ffffff;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+html body.recipe_124 .filter-options-content-inner {
+    max-height: none;
+    overflow-y: unset;
+}
+
+/* html body.recipe_124 .cro124-appliedFilters-header {
+    display: block !important;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126%;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+  } */
+html body.recipe_124 #layered-filter-block .filter-current::before {
+    content: "Applied Filters";
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126%;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-family: Poppins;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current .items .filter-label {
+    display: none;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current .items .item {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current .items .filter-value {
+    padding-left: 0;
+    color: #838383;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    text-transform: capitalize;
+    font-family: Poppins;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current .items .action.remove {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 8px;
+    height: 10px;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current .items .action.remove:hover {
+    background: none;
+    border-color: unset;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current .items .action.remove::before {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+/* ______________________________________________________________________________________ */
+/* ______________________________________________________________________________________ */
+/* ______________________________________________________________________________________ */
+/* ______________________________________________________________________________________ */
+html body.recipe_124 #layered-filter-block .filter-current+.filter-actions {
+    margin-bottom: 15px;
+    padding: 30px 20px;
+    padding-top: 0;
+    background-color: #fff;
+    margin-top: -2px;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current+.filter-actions .action.clear.filter-clear {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    text-align: left;
+    border: 0;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current+.filter-actions .action.clear.filter-clear::before {
+    display: none;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current+.filter-actions .action.clear.filter-clear span {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    text-transform: capitalize;
+    color: #000;
+    font-family: Poppins;
+}
+
+/* ______________________________________________________________________________________ */
+/* ______________________________________________________________________________________ */
+/* ______________________________________________________________________________________ */
+/* ______________________________________________________________________________________ */
+html body.recipe_124 #layered-filter-block .filter-options .filter-options-title {
+    padding: 0;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Poppins;
+    line-height: 126%;
+    text-transform: capitalize;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .cat .filter-options-content {
+    margin-top: 25px;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .filter-options-content-outer {
+    padding-top: 0;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .items.filter-checkbox li {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .items.filter-checkbox li:last-child {
+    margin-bottom: 0;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options-item.cat span.mk {
+    border: 1px solid #838383;
+    background-color: #ffffff !important;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 13px;
+    height: 13px;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options-item.cat .cdz-checkbox-wrap [type="checkbox"]:checked+span {
+    background-color: #586e85 !important;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAJCAYAAADkZNYtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABYSURBVHgBjY/RDcAgCES9dAFGcIWO0Ik7Qj87RrsJXgwfakS55EICj8AhBaSqwiJHAMwsL31uQfoz53rCttegNe+u4YGzgQtSaEI8wycXgD+FwuxkC+LNC/lzdt32kP0uAAAAAElFTkSuQmCC") !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    background-size: 9px !important;
+    cursor: pointer;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options-item.cat .cdz-checkbox-wrap {
+    margin-right: 0;
+    margin-top: 2px;
+    width: 13px;
+    height: 13px;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options-item.cat .cdz-checkbox-wrap [type="checkbox"] {
+    margin-right: 0;
+    cursor: pointer;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .items.filter-checkbox li label {
+    color: #838383;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    text-transform: capitalize;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+/* ______________________________________________________________________________________ */
+/* ______________________________________________________________________________________ */
+/* ______________________________________________________________________________________ */
+/* ______________________________________________________________________________________ */
+html body.recipe_124 #layered-filter-block .filter-options .price .filter-options-content {
+    margin-top: 20px;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .price .price-slider-container {
+    padding: 0 0px;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .price .price-slider {
+    padding: 0;
+    height: 2px;
+    background-color: #dadada;
+    width: calc(100% - 10px);
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap {
+    display: flex;
+    margin-bottom: 0;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .price .price-slider .ui-slider-handle {
+    width: 11px;
+    min-width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 2px solid #44546a;
+    background: #fff;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap .delimiter {
+    line-height: 1;
+    height: 35px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap input,
+html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap .control {
+    width: 73px;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap+.action {
+    margin-top: 49px;
+    margin-left: 7px;
+    margin-right: 0;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap+.action .submit {
+    height: 35px;
+    color: #fff;
+    font-size: 0;
+    font-style: normal;
+    line-height: 0;
+    text-transform: capitalize;
+    padding: 5px 15px;
+    margin-top: 0;
+    width: 64px;
+}
+
+html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap+.action .submit::after {
+    content: "Apply";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    font-family: Poppins;
+    color: #FFF;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap .control::before {
+    color: #6B6B6B;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    text-transform: capitalize;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current {
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+}
+
+html body.recipe_124 #layered-filter-block .filter-current+.filter-actions {
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 3;
+}
+
+
+@media screen and (min-width: 768px) {
+    html body.recipe_124 #layered-filter-block .block-title {
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+        position: relative;
+        z-index: 1;
+        color: #000;
+    }
+
+    html body.recipe_124 #layered-filter-block .block-title strong {
+        color: #000;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap .control {
+        line-height: 22px;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap {
+        margin-top: 20px;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap+.action {
+        margin-top: 42px;
+    }
+}
+
+@media screen and (max-width: 1439px) and (min-width: 768px) {
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap+.action {
+        float: unset;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap input {
+        width: 100%;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap .control {
+        width: 50%;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap+.action .submit {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap input,
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap .control {
+        width: 98px;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap+.action .submit {
+        width: 85px;
+        height: 30px;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap+.action {
+        margin-left: 8px;
+        margin-top: 42px;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap .delimiter {
+        margin-right: 8px;
+        margin-left: 8px;
+        height: 30px;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap .control input {
+        height: 30px;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap .control {
+        line-height: 22px;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap {
+        margin-top: 20px;
+    }
+
+    html body.recipe_124 #layered-filter-block .block-content.filter-content::before {
+        content: "Shop By";
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 126%;
+        text-transform: capitalize;
+        display: flex;
+        width: 100%;
+        height: 45px;
+        background-color: #fff;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 15px 20px;
+        box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+        position: relative;
+        z-index: 1;
+        margin-bottom: 0;
+        border-bottom: 1px solid #DCDCDC;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap+.action {
+        float: unset;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap input {
+        width: 100%;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap .control {
+        width: 50%;
+    }
+
+    html body.recipe_124 #layered-filter-block .filter-options .price .input-wrap+.action .submit {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+
+}
