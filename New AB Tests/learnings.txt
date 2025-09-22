@@ -1,0 +1,17 @@
+## CRO-5296: Simplifying Side Bar Menu Categorisation - Learnings
+
+This document outlines the key technical challenges and solutions from the development of A/B test CRO-5296.
+
+### 1. Challenge: Nested Element Layout
+
+*   **Problem**: After restructuring the HTML to nest child categories (`.child`) inside a new `<ul>` within their parent `<li>`, the nested list appeared to the right of the parent category's label instead of underneath it.
+*   **Cause**: The parent `<li>` elements were styled with `display: flex` by the site's default CSS, which aligns child elements horizontally by default.
+*   **Solution**:
+    1.  The parent category `li.cro-parent-category` was updated in `variant.css` to be a flex container that allows wrapping:
+        ```css
+        display: flex;
+        flex-wrap: wrap;
+        ```
+    2.  The new children container `ul.cro-children-container` was given `width: 100%;` to ensure it occupies the full width and wraps to the next line.
+*   **Learning**: When injecting new elements into existing layouts, always be mindful of the parent's CSS properties, especially `display: flex`. Using `flex-wrap: wrap` and `width: 100%` is a reliable pattern for forcing a flex item onto a new line.
+

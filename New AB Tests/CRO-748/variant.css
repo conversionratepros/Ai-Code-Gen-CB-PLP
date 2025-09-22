@@ -1,0 +1,155 @@
+@media (max-width: 767px) {
+    /* Make parent of cart and new div a flex container to align them */
+    body.CRO-748-ATF-Rework .header-panel-center {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        /* Pushes items to the right */
+    }
+
+    /* Style for the new black div */
+    /* Style for the new search icon */
+    body.CRO-748-ATF-Rework .cro-748-search-toggle {
+        margin-right: 10px;
+        /* Space between div and cart icon */
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    body.CRO-748-ATF-Rework .cro-748-search-toggle::before {
+        font-family: cbicons;
+        content: '\cb03a';
+        font-size: 33px;
+        color: #000;
+    }
+
+    /* Hide mobile search input by default */
+    body.CRO-748-ATF-Rework #mobi_header-search {
+        display: none !important;
+    }
+
+    /* Show search when active */
+    body.CRO-748-ATF-Rework.cro-748-search-active #mobi_header-search {
+        display: block !important;
+    }
+
+    /* Position close icon inside search input */
+    body.CRO-748-ATF-Rework #mobi_header-search .control {
+        position: relative;
+    }
+
+    body.CRO-748-ATF-Rework #mobi_header-search .control input#search {
+        padding-right: 40px;
+    }
+
+    body.CRO-748-ATF-Rework .cro-748-close-search {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+    }
+
+    body.CRO-748-ATF-Rework .cro-748-close-search svg {
+        width: 20px;
+        height: 20px;
+        color: #333;
+    }
+
+    /* Hide original search button */
+    body.CRO-748-ATF-Rework #mobi_header-search .actions {
+        display: none;
+    }
+
+    /* Breadcrumbs */
+    body.CRO-748-ATF-Rework .breadcrumbs {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    body.CRO-748-ATF-Rework .breadcrumbs .item a,
+    body.CRO-748-ATF-Rework .breadcrumbs .item strong {
+        font-size: 12px;
+        color: #6a6a6a;
+    }
+
+    body.CRO-748-ATF-Rework .breadcrumbs .item::after {
+        margin: 0 8px;
+    }
+
+    /* New Product Header above image */
+    body.CRO-748-ATF-Rework .cro-748-product-header {
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+
+    body.CRO-748-ATF-Rework .cro-748-product-header .page-title-wrapper {
+        margin-bottom: 5px;
+    }
+
+    body.CRO-748-ATF-Rework .cro-748-product-header .product-reviews-summary {
+        margin: 0 0 10px;
+    }
+
+    body.CRO-748-ATF-Rework .cro-748-product-header .product.attribute.sku {
+        margin-bottom: 0;
+    }
+
+    /* Product Details Reordering */
+    body.CRO-748-ATF-Rework .product-info-main-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Order for elements inside .product-info-main-inner */
+    body.CRO-748-ATF-Rework .product-info-price {
+        order: 1;
+    }
+
+    body.CRO-748-ATF-Rework .product-options-wrapper {
+        order: 2;
+    }
+
+  
+
+
+    body.CRO-748-ATF-Rework .product-social-links {
+        order: 4;
+    }
+
+    body.CRO-748-ATF-Rework #payment-widgets-accordion {
+        order: 5;
+        margin-top: 15px;
+    }
+
+    body.CRO-748-ATF-Rework .product-info-main .product.attribute.overview {
+        order: 6;
+        margin-top: 20px;
+    }
+
+    /* Sale Price Styling */
+    body.CRO-748-ATF-Rework .product-info-price .price-box .old-price {
+        display: block;
+        margin-top: 5px;
+    }
+
+    /* Quantity and ATC button alignment */
+ 
+
+  
+
+
+    /* Wishlist and Registry alignment */
+    body.CRO-748-ATF-Rework .product-addto-links {
+        justify-content: flex-start;
+        text-align: left;
+    }
+}

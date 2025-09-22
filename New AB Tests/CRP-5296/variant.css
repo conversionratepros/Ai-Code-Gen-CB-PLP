@@ -1,0 +1,108 @@
+body.CRO-5296 .filter-options-item.cat .filter-options-content ul.items > li.cro-parent-category {
+    position: relative;
+    cursor: pointer;
+    padding-right: 25px;
+    /* Make space for chevron */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Hide children by default */
+body.CRO-5296 .cro-parent-category .cro-children-container {
+    display: none;
+    padding-left: 20px;
+    margin-top: 8px;
+    width: 100%;
+    cursor: default;
+}
+
+/* Show children when parent is expanded */
+body.CRO-5296 .cro-parent-category.cro-expanded .cro-children-container {
+    display: block;
+}
+
+/* Chevron styling */
+body.CRO-5296 .cro-parent-category .cro-chevron {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease-in-out;
+    position: absolute;
+    right: 10px;
+    top: 0px; /* Adjust as needed */
+    pointer-events: none; /* So it doesn't interfere with the li click */
+}
+
+/* Chevron direction when expanded */
+body.CRO-5296 .cro-parent-category.cro-expanded .cro-chevron {
+    transform: rotate(-135deg);
+    top: 14px; /* Adjust as needed */
+}
+
+/* General styling from figma */
+body.CRO-5296 .filter-options-item .filter-options-title {
+    font-weight: 600;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+body.CRO-5296 .filter-options-item.cat ul.items li {
+    padding: 8px 0;
+}
+
+body.CRO-5296 .filter-options-item.cat ul.items li label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+body.CRO-5296 .cro-parent-category > label {
+    font-weight: 600;
+}
+
+/* Checkbox styling */
+body.CRO-5296 .filter-options-item.cat .js-cdz-checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.25em;
+    height: 1.25em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+body.CRO-5296 .filter-options-item.cat .js-cdz-checkbox::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #000;
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+body.CRO-5296 .filter-options-item.cat .js-cdz-checkbox:checked::before {
+    transform: scale(1);
+}
+
+body.CRO-5296 .filter-options-item.cat .js-cdz-checkbox:checked {
+    border-color: #000;
+}

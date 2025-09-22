@@ -1,0 +1,33 @@
+## CRO-748 Learnings & Key Takeaways
+
+This document summarizes the key challenges and solutions encountered during the development of the CRO-748 test.
+
+### 1. PDP Layout Rework: JavaScript + CSS for Stability
+
+*   **Challenge**: The initial goal was to move the product title, reviews, and SKU above the image gallery on mobile PDPs. A pure JavaScript approach of moving the DOM elements caused other interactive components on the page (like the payment options accordion) to break.
+*   **Solution**: A hybrid approach proved more stable.
+    1.  **JavaScript**: Used to create a new container (`.cro-748-product-header`) and move the target elements (title, reviews) into it. This grouped the elements logically.
+    2.  **CSS**: Used `display: flex` and the `order` property on the parent container (`.product-info-main-inner`) to visually rearrange the elements. This method is less disruptive than full DOM restructuring and preserves the original event listeners and functionality of the page's components.
+*   **Learning**: For complex layout changes on pages with heavy JavaScript interactivity, visual reordering with CSS `order` is often safer and more reliable than physically moving many elements in the DOM.
+
+### 2. Search Functionality: A Step-by-Step Rebuild
+
+*   **Challenge**: The initial implementation of the custom search toggle was buggy. The search bar was visible by default, and the close icon failed to render, preventing the feature from working.
+*   **Solution**: We rebuilt the feature from the ground up in small, verifiable steps.
+    1.  **Isolate Placement**: Started by adding a simple black `div` where the search icon should be. This confirmed the JavaScript was correctly targeting the header.
+    2.  **Force Initial State**: Used `display: none !important;` in the CSS to hide the default mobile search container (`#mobi_header-search`). The `!important` was necessary to override high-specificity styles from the original site.
+    3.  **Implement Toggle**: Added a click listener to the icon that toggles a class (`.cro-748-search-active`) on the `<body>`. CSS rules were then used to show/hide the search container based on the presence of this class. This is a standard and robust pattern for toggling UI states.
+    4.  **Inject Close Icon**: Added a close "X" icon into the search input field using JavaScript. A separate click listener was added to this icon to remove the `.cro-748-search-active` class, closing the search bar.
+    5.  **Final Icon Styling**: Replaced the placeholder black `div`'s styles with the `font-family: cbicons` CSS to render the correct icon.
+*   **Learning**: When a feature is failing, breaking it down into the smallest possible parts and verifying each one individually is a highly effective debugging strategy.
+
+### 3. Handling Sticky Elements and CSS Specificity
+
+*   **Challenge**: The CSS rules intended to re-align the main "Add to Cart" button and quantity selector were also affecting the separate "sticky" Add to Cart bar that appears on mobile scroll, breaking its functionality.
+*   **Solution**: The initial CSS selector (`.box-tocart`) was too broad. The fix required removing these styles.
+*   **Learning**: Be extremely cautious when styling elements that are part of a dynamic, JavaScript-driven feature (like a sticky header/footer). The CSS selectors must be specific enough to target *only* the intended static element and not its dynamic counterpart. A good approach is to find a parent element that *only* contains the non-sticky version to use as a CSS anchor.
+
+### 4. General Best Practices
+
+*   **`waitForElement` Precision**: It's not always enough to wait for a parent container. When injecting the search bar's close icon, we had to change `waitForElement` to look for the inner `.control` div, not just the main form. This ensures all necessary child elements are rendered before the script tries to modify them.
+*   **Mobile-Only Logic**: The entire test is correctly wrapped in a `window.innerWidth < 768` condition to ensure it only runs on mobile devices, as per the requirements.

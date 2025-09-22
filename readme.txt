@@ -1,7 +1,10 @@
+For ai:
+
 Background
 I am building AB tests using convert.com 
 AB tests are build using JS and CSS.
 Examples can be refernced from this project. 
+Do not apply styles where not specified. If it says element needs to be updated style wise and no style information is given, example, colour, do not apply your own style.
 
 
 General
@@ -12,6 +15,7 @@ If a folder does not exist you can ask to make one
 Refernce the user story in the folder name supplied in the instruction
 The user story will contain all the details needed for the variation
 All code needs to be added to this folder. 
+Refence the "Corrections" file, these are things that were done wrong when building previous tests
 When asking to build a test, add the varaion js in the js file for the specific ab test
 When asking to build a test, add the varaion css in the css file for the specific ab test
 
@@ -35,9 +39,9 @@ Repository structure and file meanings.
 
 
 4. ALways ask the person to include the user story if there is not none in the new ab test sub folder
-
+5. In the 
 
 
 5. Technical.
 5.1 a large amount of our tests need the waitForElement function. This waits for an element to load on the page so the changes can be applied. Before building the test, ask if there needs to be a wait for elment. If yes, this needs to be supplied and the wait for element function should be used in the code
-
+5.2 Do not genearte empty css classes
