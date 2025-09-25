@@ -433,7 +433,7 @@
         // experiments.test88();
         // experiments.test_120_Replace_PDP_value_dropdowns();
         // experiments.test_145_Gift_voucher_cart_updates_All();
-        // experiments.test_Recipe_ATF_Rework_Mobile();
+        experiments.test_Recipe_ATF_Rework_Mobile();
         experiments.test_Recipe_UC1_Users_arent_aware_of_the_quality_of_the_products_All_CB_546();
         experiments.test_149_Display_credit_payment_methods_on_cart();
         console.log("Global JavaScript Activate");
@@ -475,7 +475,7 @@
             experiments.test_Recipe_Fable_USP_Section_All_CRO412();
             experiments.test_KI153_Order_Summary_update_Mobile();
 
-            // experiments.test_Recipe_ATF_Rework_Mobile();
+            experiments.test_Recipe_ATF_Rework_Mobile();
             experiments.test_Recipe_UC1_Users_arent_aware_of_the_quality_of_the_products_All_CB_546();
             experiments.test_149_Display_credit_payment_methods_on_cart();
             experiments.test_KI151_KI152_Checkout_reduce_distraction_CTA_standardising_ALL();
