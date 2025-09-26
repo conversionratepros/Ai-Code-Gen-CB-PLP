@@ -81,7 +81,6 @@ PDP (Product Detail Page)
 *   Other PDP functionalities remain unaffected (gallery, add to cart, reviews, recommendations, etc.).
 *   Test executes consistently across navigation (SPA handling if applicable).
 
-
 ### Change Checklist
 * * *
 
