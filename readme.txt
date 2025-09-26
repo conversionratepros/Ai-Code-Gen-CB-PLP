@@ -38,10 +38,18 @@ Repository structure and file meanings.
 
 
 
-4. ALways ask the person to include the user story if there is not none in the new ab test sub folder
-5. In the 
+4.Always do this before building a test:
+4.1 Check if the folder structure and core files or folders are correct in the repo. If there is not tell the developer to let managment know. The core files or folders areou outlined below:
+4.1.1 Core folder:There shoudl be a folder name "AB test code examples".
+4.1.2 Core file: There shoudl always be a global js file in "AB test code examples".
+4.1.3 Core file: There should always be a control.html file
+4.1.4 Core folder: There should always be a convert.com deployments folder
+4.1.5 Core file: There should always be Human-readme.txt file
+4.1.6 Core folder: There should always be a New AB tests folder
+4.2 ALways ask the person to include the user story if there is not none in the new ab test sub folder. If there is a user story in the sub folder, you do not need to ask
+4.3 Always ask the develoeprs if ther are any technical details they would like to add before building the test. If they say yes, include these in the build. If they say no, you can proceed to buid the ab test
 
-
+ 
 5. Technical.
 5.1 a large amount of our tests need the waitForElement function. This waits for an element to load on the page so the changes can be applied. Before building the test, ask if there needs to be a wait for elment. If yes, this needs to be supplied and the wait for element function should be used in the code
 5.2 Do not genearte empty css classes
