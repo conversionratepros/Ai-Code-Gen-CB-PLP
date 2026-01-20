@@ -1,0 +1,102 @@
+html body.croki127 button.et_pb_button {
+    font-size: 0 !important;
+    position: relative;
+    line-height: 1 !important;
+    width: 270px;
+    padding: 7px 20px;
+}
+
+html body.croki127 #callbackcol-left .clearfix button.et_pb_button img.callimg{
+    width: 25px !important;
+}
+
+html body.croki127 button.et_pb_button::after {
+    content: "CALL ME FOR A QUOTE";
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    font-family: Open Sans, Arial, sans-serif;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+html body.croki127 .quotecta a {
+    font-size: 0;
+    padding: 8px 24px;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html body.croki127 .quotecta a:after {
+    content: 'Get your pet’s quote online';
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 991px) and (max-width: 994px){
+    html body.croki127 .quotecta a{
+        width: 322px !important;
+    }
+    html body.croki127 .quotecta a:after {
+        font-size:15px;
+    }
+}
+
+@media (max-width: 990px) {
+    html body.croki127 .quotecta a{
+        width: 340px !important;
+    }
+    
+     html body.croki127 .quotecta a:after {
+        font-size: 16px;
+    }
+}
+@media (max-width:767px) {
+    html body.croki127  button.et_pb_button {
+        width: 100%;
+    }
+}
+
+@media (max-width:484px) {
+     html body.croki127 .quotecta a{
+        width: 100% !important;
+    }
+}
+
+
+@media (max-width:391px) and (min-width:332px) {
+    html body.croki127 .quotecta a:after {
+        font-size: 14px;
+    }
+
+    html body.croki127 button.et_pb_button::after {
+        font-size: 14px !important;
+    }
+
+}
+
+
+@media (max-width:360px) {
+     html body.croki127 .quotecta a{
+        padding: 8px 10px;
+    }
+
+    html body.croki127 .quotecta a:after {
+    font-size: 13px;
+    }
+
+    html body.croki127 button.et_pb_button {
+        padding: 7px 10px;
+    }
+
+    html body.croki127 button.et_pb_button::after{
+        font-size: 14px !important;
+    }
+}

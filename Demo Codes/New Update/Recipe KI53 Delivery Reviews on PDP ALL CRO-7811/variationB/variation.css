@@ -1,0 +1,338 @@
+/* Delivery Section Styles */
+html body.cro-t-ki53 .cro-ki53-delivery-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+html body.cro-t-ki53 .cro-ki53-delivery-content {
+    flex: 1;
+}
+
+html body.cro-t-ki53 .cro-ki53-delivery-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    color: #222222;
+    margin: 0 0 15px 0;
+    text-align: left;
+}
+
+html body.cro-t-ki53 .cro-ki53-delivery-paragraph {
+    /* font-family: 'Nunito Sans', sans-serif; */
+    /* font-size: 24px; */
+    /* color: #4A4A4A; */
+    margin: 0 !important;
+    text-align: left;
+    color: #4A4A4A;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+    max-width: 650px;
+}
+
+html body.cro-t-ki53 .cro-ki53-learn-more-btn {
+    background-color: transparent;
+    border: 1px solid #09223F;
+    color: #09223F;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 18.8px 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    color: #09223F;
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    /* 100% */
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    width: 255px;
+}
+
+/* html body.cro-t-ki53 .cro-ki53-learn-more-btn:hover {
+    background-color: #09223F;
+    color: #ffffff;
+} */
+
+/* Reviews Carousel Styles */
+html body.cro-t-ki53 .cro-ki53-reviews-carousel-wrapper {
+    position: relative;
+    width: 100%;
+    /* overflow: visible; */
+}
+
+html body.cro-t-ki53 .cro-ki53-reviews-swiper {
+    margin-bottom: 24px;
+    width: 100%;
+    overflow: hidden;
+}
+
+html body.cro-t-ki53 .cro-ki53-reviews-swiper .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+html body.cro-t-ki53 .cro-ki53-reviews-swiper .swiper-slide {
+    height: auto;
+    display: flex;
+    width: auto;
+}
+
+html body.cro-t-ki53 .cro-ki53-review-card {
+    background-color: #F0F5FA;
+    padding: 45px;
+    border-radius: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    /* font-size: 24px;  */
+    /* color: #4A4A4A; */
+    /* line-height: 1.5; */
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: #4A4A4A;
+    /* font-family: Nunito; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200 !important;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Carousel Indicators */
+html body.cro-t-ki53 .cro-ki53-carousel-indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+html body.cro-t-ki53 .cro-ki53-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D3D3D3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+html body.cro-t-ki53 .cro-ki53-indicator.active {
+    background-color: #09223F;
+    width: 12px;
+    height: 12px;
+}
+
+/* Ensure proper spacing and layout */
+html body.cro-t-ki53 .cro-ki53-reviews {
+    padding: 40px 20px 48px;
+    /* max-width: 1400px; */
+    /* margin: 0 auto; */
+    /* border-bottom: 1px solid #E6E6E6; */
+    display: block !important;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 24px;
+}
+
+html body.cro-t-ki53 .cro-ki53-reviews-wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+html body.cro-t-ki53 .cro-ki53-reviews-inner {
+    width: 100%;
+}
+
+html body.cro-t-ki53 h2.cro-ki53-delivery-heading {
+    color: #222;
+    font-family: "Cormorant Garamond";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 128.571% */
+    letter-spacing: 0.56px;
+    margin-bottom: 8px;
+}
+
+
+html body.cro-t-ki53 .x-shop-footer .section.three {
+    border-top: 1px solid #E6E6E6;
+    display: none;
+}
+
+html body.cro-t-ki53 .cro-t-53-delivery {
+    display: none !important;
+}
+
+html body.cro-t-ki53 .x-shop-footer .section.three .col-md-4.mid-column {
+    border-left: none;
+}
+
+html body.cro-t-ki53 .cro-ki53-reviews-subscription-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+html body.cro-t-ki53 .cro-ki53-reviews-subscription-wrapper .col-12 {
+    width: 50%;
+}
+
+html body.cro-t-ki53 .cro-ki53-reviews-subscription-wrapper .col-12.mid-column {
+    border-left: none;
+    border-right: 1px solid rgba(0, 0, 0, .2);
+}
+
+html body.cro-t-ki53 .cro-ki53-reviews-subscription {
+    display: block !important;
+}
+
+html body.cro-t-ki53 .x-shop-footer .channel-content.border-top-color {
+    border-top: none;
+}
+
+@media (min-width: 768px) {
+    html body.cro-t-ki53 .x-shop-footer .section.three .col-md-4 {
+        width: 50%;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-reviews-subscription {
+        padding: 3rem 0 24px;
+        border-top: 1px solid #E6E6E6;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-reviews-subscription h6,
+    html body.cro-t-ki53 .cro-ki53-reviews-subscription h2 {
+        margin-bottom: 20px;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-reviews-subscription p {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+    html body.cro-t-ki53 .cro-ki53-learn-more-mobile {
+        display: none;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-learn-more-desktop {
+        display: block;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 991px) {
+    html body.cro-t-ki53 .cro-ki53-delivery-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 21px;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-delivery-heading {
+        text-align: center;
+        /* font-size: 28px; */
+        /* line-height: 36px; */
+        margin-bottom: 20.8px !important;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-delivery-paragraph {
+        font-size: 14px;
+        text-align: center;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-learn-more-desktop {
+        display: none;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-learn-more-mobile {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: fit-content;
+        max-width: 390px;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-reviews-carousel-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-carousel-indicators {
+        margin-bottom: 15px;
+        margin-top: 9px;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-reviews {
+        padding: 50px 0;
+        margin-top: 21px;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-delivery-content {
+        padding: 0 14px;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-review-card {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-reviews-swiper {
+        position: relative;
+        z-index: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    html body.cro-t-ki53 .cro-ki53-reviews-subscription-wrapper {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-reviews-subscription-wrapper .col-12 {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        border-top: 1px solid #e6e6e6;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-reviews-subscription-wrapper .col-12.column-three {
+        padding-bottom: 20px;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-reviews-subscription h6,
+    html body.cro-t-ki53 .cro-ki53-reviews-subscription h2 {
+        margin-bottom: 20px;
+    }
+
+    html body.cro-t-ki53 .cro-ki53-reviews-subscription p {
+        margin-bottom: 31px;
+    }
+}
+
+html body.cro-t-ki53 x-section-three .section.three {
+    display: none;
+}

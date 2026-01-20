@@ -1,0 +1,305 @@
+html body.croki128 div#croki128-Review-Section {
+    background-color: #F8F8F8 !important;
+}
+
+/* ------Cro CSS------- */
+html body.croki128 .cro-container {
+    width: 100%;
+    max-width: 1264px;
+    margin: 0 auto;
+}
+
+@media (max-width:1330px) {
+    html body.croki128 .cro-container {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}
+
+@media (max-width:1024px) and (min-width:768px) {
+    html body.croki128 .cro-container {
+        padding-left: 54px !important;
+        padding-right: 54px !important;
+    }
+}
+
+@media (max-width:767px) {
+    html body.croki128 .cro-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+html body.croki128 .croki128-header-image {
+    width: 100%;
+    max-width: 282px;
+}
+
+html body.croki128 .croki128-header-part-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+html body.croki128 .croki128-left-part-wrapper {
+    padding: 48px 0;
+    padding-bottom: 48px;
+}
+
+html body.croki128 .croki128-header-parent h2.hellopeterText {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
+html body.croki128 .croki128-header-parent-text {
+    width: 100%;
+    /* max-width: 730px; */
+    max-width: 100%;
+}
+
+html body.croki128 .croki128-left-part-inner .testimonial-slide {
+    padding: 0;
+}
+
+/* html body.croki128 div#simpleandaffordable {
+    display: none;
+} */
+
+html body.croki128 div#reviews {
+    display: none;
+}
+
+html body.croki128 .swiper-button-next.croki128-left-part-next.croki128-arrowbtn {
+    right: 0;
+}
+
+html body.croki128 .swiper-button-prev.croki128-left-part-prev.croki128-arrowbtn {
+    left: 0;
+}
+
+html body.croki128 .croki128-left-part-inner-swiper {
+    position: relative;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.croki128-left-part-inner-swiper .swiper{
+    padding: 10px 20px;
+}
+
+html body.croki128 .swiper-button-prev::after {
+    display: none;
+}
+
+html body.croki128 .swiper-button-next::after {
+    display: none;
+}
+
+html body.croki128 .croki128-arrowbtn {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 15px;
+    background: #40AEE1;
+}
+
+html body.croki128 .croki128-header-parent {
+    padding-bottom: 30px;
+}
+
+html body.croki128 .croki128-left-part-inner .swiper-slide .testimonial_box-top{
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.12);
+    /* height: 235px; */
+}
+
+html body.croki128 .croki128-new-image-banner-wrapper {
+    width: 100%;
+    height: 251px;
+}
+
+html body.croki128 .croki128-new-image-banner-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html body.croki128 h2.hellopeterText {
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    color: #282972;
+    text-align: center;
+    font-size: 41.6px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54.08px;
+    text-transform: uppercase;
+}
+
+html body.croki128 h2.hellopeterText span{
+    color: #38A2D7;
+}
+
+/* html body.croki128 div#affordableplans {
+    padding-bottom: 0 !important;
+} */
+
+html body.croki128 .croki128-new-image-banner {
+    position: relative;
+    top: -23px;
+    background-color: #EFEDEE;
+}
+
+html body.croki128 div#croki128-Review-Section {
+    /* position: relative;
+    top: -23px; */
+    margin-top: 50px;
+}
+
+html body.croki128 #simpleandaffordable {
+    padding-top: 8em;
+    margin-top: -7em;
+}
+
+#simpleandaffordable::after{
+    display: none;
+}
+
+html body.croki128 .swiper-button-prev, 
+html body.croki128 .swiper-button-next {
+    top: 52%;
+}
+
+
+
+@media (max-width:994px) and (min-width:981px){
+    html body.croki128 .croki128-left-part-inner .testimonial-slide {
+        padding: 16px;
+    }
+
+    html body.croki128 .croki128-left-part-inner-swiper {
+        position: relative;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    html body.croki128 .croki128-header-parent {
+        padding-bottom: 24px;
+    }
+
+    html body.croki128 .croki128-left-part-inner-swiper .swiper {
+        padding: 0;
+    }
+
+}
+
+@media (max-width:994px) {
+    html body.croki128 .croki128-new-image-banner {
+        top: -33px;
+    }
+
+    html body.croki128 div#croki128-Review-Section {
+        top: -33px;
+    }
+
+    html body.croki128 .croki128-left-part-wrapper {
+        padding-top: 25px;
+    }
+
+}
+
+/* @media (max-width:1199px) and (min-width:998px) {
+    html body.croki128 .croki128-left-part-inner .et_pb_text_inner.thereview.name{
+        height: 53px;
+    }
+} */
+
+@media (max-width:900px) and (min-width:768px){
+    html body.croki128 .croki128-left-part-inner-swiper {
+        position: relative;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width:980px) {
+    html body.croki128 .croki128-arrowbtn svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    html body.croki128 .croki128-arrowbtn {
+        width: 90px !important;
+        height: 90px !important;
+        border-radius: 50%;
+    }
+
+    html body.croki128 .croki128-left-part-inner .testimonial-slide {
+        padding: 30px !important;
+    }
+
+    html body.croki128 .croki128-left-part-inner-swiper .swiper {
+        padding: 0;
+    }
+
+    html body.croki128 .croki128-left-part-inner-swiper {
+        padding-left: 0; 
+        padding-right: 0; 
+    }
+
+    html body.croki128 .swiper-button-prev.croki128-left-part-prev.croki128-arrowbtn {
+        left: -25px;
+    }
+
+    html body.croki128 .swiper-button-next.croki128-left-part-next.croki128-arrowbtn {
+        right: -25px;
+    }
+
+    /* html body.croki128 .croki128-left-part .et_pb_text_inner.thereview.name h5{
+        height: 135px;
+    } */
+
+    html body.croki128 .croki128-header-parent h2.hellopeterText{
+        font-size: 3.5em;
+        line-height: 1.2em;
+        text-align: left;  
+    }
+
+    html body.croki128 .croki128-left-part-wrapper {
+        padding-top: 40px;
+    }
+
+    html body.croki128 #simpleandaffordable {
+        padding-top: 13em;
+        margin-top: -11em;
+    }
+
+    html body.croki128 .croki128-header-parent {
+        padding-bottom: 40px;
+    }
+
+    html body.croki128 .swiper-button-prev, 
+    html body.croki128 .swiper-button-next{
+        top: 47%;
+    }
+
+}
+
+@media (max-width:990px) and (min-width:981px) {
+    html body.croki128 .croki128-left-part-inner .swiper-slide .testimonial_box-top{
+    height: 245px;
+}
+}
+
+@media (max-width:1330px) and (min-width:991px) {
+    html body.croki128 .croki128-left-part-inner .swiper-slide .testimonial_box-top{
+    height: 250px;
+}
+}
+
+@media (min-width:1331px) {
+    html body.croki128 .croki128-left-part-inner .swiper-slide .testimonial_box-top{
+    height: 235px;
+}
+}

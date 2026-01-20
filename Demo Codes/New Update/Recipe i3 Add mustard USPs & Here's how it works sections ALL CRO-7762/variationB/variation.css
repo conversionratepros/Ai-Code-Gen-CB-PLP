@@ -1,0 +1,336 @@
+html body.cro-i3-mustard .pt-10  h1 {
+    color: #414141;
+    font-family: Roboto;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+}
+
+html body.cro-i3-mustard .pt-10  h1 strong {
+    color: #414141;
+    font-family: Roboto;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 113.043% */
+}
+
+html body.cro-i3-mustard .pt-10  h1+p{
+    display: none;
+}
+
+/* Bullet Points Section - Desktop */
+html body.cro-i3-mustard .cro-i3-bulletPoints-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+html body.cro-i3-mustard .cro-i3-step {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+}
+
+html body.cro-i3-mustard .cro-i3-step-icon {
+    flex-shrink: 0;
+}
+
+html body.cro-i3-mustard .cro-i3-step-icon img {
+    display: block;
+    width: 66px;
+    height: 66px;
+}
+
+html body.cro-i3-mustard .cro-i3-step-content {
+    flex: 1;
+}
+
+html body.cro-i3-mustard .cro-i3-step-heading {
+    color: #414141;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 109.091% */
+    margin: 0 0 8px 0;
+}
+
+html body.cro-i3-mustard .cro-i3-step-text {
+    color: #414141;
+    font-family: Roboto;
+    font-size: var(--Text-Sizes-Text-Small, 14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+}
+
+html body.cro-i3-mustard .pt-10 .container .decorated{
+    display: none;
+}
+
+html body.cro-i3-mustard h2.cro-i3-bulletPoints-heading {
+    color: #414141;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 109.091% */
+    margin-bottom: 22px;
+}
+
+/* USPs Section */
+html body.cro-i3-mustard .cro-i3-usps {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+    margin-top: 60px;
+}
+
+html body.cro-i3-mustard .cro-i3-usps-wrapper {
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    /* padding: 0; */
+}
+
+html body.cro-i3-mustard .cro-i3-usps-heading {
+    color: #414141;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 50.6px */
+    margin: 0 0 40px 0;
+}
+
+html body.cro-i3-mustard .cro-i3-usps-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 64px;
+}
+
+html body.cro-i3-mustard .cro-i3-usp-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+html body.cro-i3-mustard .cro-i3-usp-icon {
+    margin-bottom: 10px;
+}
+
+html body.cro-i3-mustard .cro-i3-usp-icon img {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+html body.cro-i3-mustard .cro-i3-usp-content {
+    flex: 1;
+}
+
+html body.cro-i3-mustard .cro-i3-usp-heading {
+    color: #414141;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 30.8px */
+    margin: 0 0 10px 0;
+}
+
+html body.cro-i3-mustard .cro-i3-usp-text {
+    color: #414141;
+    font-family: Roboto;
+    font-size: var(--Text-Sizes-Text-Small, 14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+}
+
+@media (min-width: 1136px) and (max-width: 1484px) {
+    html body.cro-i3-mustard .cro-i3-usp-heading{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1271px) {
+    html body.cro-i3-mustard .cro-i3-usps-inner{
+        gap: 30px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1135px) {
+    html body.cro-i3-mustard .cro-i3-usp-heading{
+        font-size: 15px;
+    }
+
+    html body.cro-i3-mustard .cro-i3-usp-text{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1024px) {
+    html body.cro-i3-mustard .cro-i3-bulletPointsMobile{
+        display: none;
+    }
+
+    html body.cro-i3-mustard section .container>h2{
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 1023px) {
+    html body.cro-i3-mustard .cro-i3-bulletPointsDesktop{
+        display: none;
+    }
+
+    html body.cro-i3-mustard .pt-10  h1 {
+        color: var(--Headings, #414141);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 116.216%; /* 30.216px */
+        margin-bottom: 6px;
+    }
+    
+    html body.cro-i3-mustard .pt-10  h1 strong {
+        color: var(--Headings, #414141);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 116.216%; /* 30.216px */
+    }
+
+    html body.cro-i3-mustard .cro-i3-bulletPoints-inner {
+        display: flex;
+        flex-direction: column;
+        gap: 43px;
+    }
+
+    html body.cro-i3-mustard .cro-i3-step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    html body.cro-i3-mustard .cro-i3-step-icon {
+        flex-shrink: 0;
+    }
+
+    html body.cro-i3-mustard .cro-i3-step-icon img {
+        display: block;
+        width: 66px;
+        height: 66px;
+    }
+
+    html body.cro-i3-mustard .cro-i3-step-content {
+        flex: 1;
+    }
+
+    html body.cro-i3-mustard .cro-i3-step-heading {
+        color: #414141;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 30.8px */
+        margin: 0 0 8px 0;
+    }
+
+    html body.cro-i3-mustard .cro-i3-step-text {
+        color: #414141;
+        text-align: center;
+        font-family: Roboto;
+        font-size: var(--Text-Sizes-Text-Small, 14px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin: 0;
+    }
+
+    html body.cro-i3-mustard h2.cro-i3-bulletPoints-heading{
+        text-align: center;
+        margin-bottom: 43px;
+        margin-top: 34px;
+        font-size: 26px;
+        line-height: 26.6px;
+    }
+
+    html body.cro-i3-mustard .cro-i3-bulletPoints.cro-i3-bulletPointsMobile {
+        margin-bottom: 43px;
+    }
+
+    html body.cro-i3-mustard .cro-i3-usps {
+        padding: 60px 0;
+        margin-top: 0;
+    }
+
+    html body.cro-i3-mustard .cro-i3-usps-wrapper {
+        padding: 0 16px;
+    }
+
+    html body.cro-i3-mustard .cro-i3-usps-heading {
+        color: #414141;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 28.6px */
+        margin: 0 0 40px 0;
+    }
+
+    html body.cro-i3-mustard .cro-i3-usps-inner {
+        display: flex;
+        flex-direction: column;
+        gap: 47px;
+    }
+
+    html body.cro-i3-mustard .cro-i3-usp-item {
+        align-items: center;
+        text-align: center;
+    }
+
+    html body.cro-i3-mustard .cro-i3-usp-heading {
+        color: #414141;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 30.8px */
+    }
+
+    html body.cro-i3-mustard .cro-i3-usp-text {
+        color: #414141;
+        text-align: center;
+        font-family: Roboto;
+        font-size: var(--Text-Sizes-Text-Small, 14px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    html body.cro-i3-mustard .cro-i3-usp-icon img{
+        width: 55px;
+        height: 55px;
+    }
+
+    html body.cro-i3-mustard section .container>h2{
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
