@@ -1,0 +1,276 @@
+html body.croi5 .cro-header-left h1,
+html body.croi5 .cro-header-left p,
+html body.croi5 ol.decorated{
+    display: none;
+}
+
+html body.croi5 .croi5-new-left-header-text {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112%; /* 67.2px */
+    letter-spacing: 0.6px;
+    font-family: "Roboto", Arial, sans-serif;
+    color: var(--Color-Blue, #007DFE);
+}
+
+html body.croi5 .croi5-new-left-header-text span {
+    color: var(--Color-Navy, #101758);
+    display: block;
+}
+
+html body.croi5 .croi5-new-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
+}
+
+html body.croi5 .croi5-new-left-subheader-text {
+    color: #101758;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: var(--Text-Sizes-Text-Medium, 18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+html body.croi5 .croi5-new-left-sub_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+    max-width: 502px;
+}
+
+html body.croi5 .croi5-new-left-subheader-text span {
+    font-weight: 700;
+}
+
+html body.croi5 #main-form .grid.gap-5 label {
+    display: none;
+}
+
+html body.croi5 #main-form .grid.gap-5 input[type="text"],
+html body.croi5 #main-form .grid.gap-5 input[type="email"]{
+    border-radius: var(--Large, 32px);
+    background: var(--Color-White, #FFF);
+    border: none;
+    padding: 12px 23px;
+}
+
+html body.croi5 form#main-form {
+    padding: 31px 35px 41px;
+}
+
+html body.croi5 .border.bg-gray.rounded {
+    border: none;
+    border-radius: var(--Extra-Large, 40px);
+    background: var(--Color-Neutral-Lightest, #EEE);
+}
+
+html body.croi5 .border.rounded h2 {
+    font-size: 0 !important;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 41px 35px 0;
+    background-color: #EEE;
+}
+
+html body.croi5 h2#main-form-header:after {
+    content:"Start now!";
+    color: var(--Color-Blue, #007DFE);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 39.6px */
+    letter-spacing: 0.36px;
+}
+
+html body.croi5 #main-form .grid.gap-5 input[type="submit"]{
+    margin: 0;
+    padding: 9px 12px;
+    letter-spacing: 0.36px;
+    color: var(--Color-White, #FFF);
+    font-size: var(--Text-Sizes-Text-Medium, 18px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    border-radius: var(--Medium, 24px);
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.15);
+    font-family: "Roboto", Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+html body.croi5 input#Callback {
+    background: var(--Color-Blue, #007DFE);
+   
+}
+
+html body.croi5 input#Online{
+    background: var(--Color-Green, #B4F321);
+    color: var(--Color-Navy, #101758) !important;
+}
+
+html body.croi5 #main-form {
+  position: relative;
+}
+
+html body.croi5 #main-form::after {
+    content: "";
+    position: absolute;
+    left: -74px;
+    bottom: -12px;
+    width: 98px;
+    height: 78px;
+    background-image: url("https://crp-clients-images.s3.af-south-1.amazonaws.com/Debt-co-za/Recipe_i5+/cro-db-i5-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+html body.croi5 #main-form-header + .hidden.redirect-msg p {
+    margin-top: 16px;
+}
+
+html body.croi5 input#first_name::placeholder,
+html body.croi5 input#last_name::placeholder,
+html body.croi5 input#phone_mobile::placeholder,
+html body.croi5 input#email::placeholder,
+html body.croi5 input#id_number::placeholder {
+    color: var(--Opacity-Neutral-Darkest-40, rgba(0, 0, 0, 0.40));
+}
+
+html body.croi5 p.croi5-From-tnc {
+    color: rgba(0, 0, 0, 0.40);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: var(--Text-Sizes-Text-Small, 14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    margin-bottom: 25px;
+}
+
+html body.croi5 .croi5-Partners-Section h2 {
+    color: #101758;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+
+
+@media (min-width:1024px) {
+    html body.croi5 .croi5-new-left-subheader-text.text-2 {
+        width: 100%;
+        max-width: 90%;
+    }
+}
+
+@media (max-width:1500px) {
+    html body.croi5 .croi5-new-left-header-text{
+        font-size: 55px;
+    }
+}
+
+@media (max-width:1400px) {
+    html body.croi5 .croi5-new-left-header-text{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:1023px){
+    html body.croi5 .croi5-new-left-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    } 
+
+    html body.croi5 .croi5-new-left-header-text {
+        font-size: 44px;
+        text-align: center;
+    }
+
+    html body.croi5 .croi5-new-left-wrapper {
+        align-items: center;
+        gap: 25px;
+    }
+
+    html body.croi5 .croi5-new-left-subheader-text {
+        text-align: center;
+    }
+
+    html body.croi5 .border.rounded h2 {
+        text-align: center;
+    }
+
+    html body.croi5 .pt-10.pb-0 > .grid {
+        gap: 44px;
+    }
+
+
+    /* ----form---Control--css--- */
+
+    html body.croi5 #main-form .gap-5 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    html body.croi5 .croi5-from-button {
+        gap: 11px !important;
+    
+    }
+
+    html body.croi5 #main-form::after {
+        left: auto;
+        bottom: auto;
+        top: -103px;
+        right: 181px;
+        width: 90px;
+        height: 70px;
+        transform: rotate(326deg) scaleX(-1);
+    }
+
+    html body.croi5 #main-form .grid:not(.croi5-from-button) p{
+        margin-bottom: 20px;
+    }
+
+    html body.croi5 .croi5-Partners-Section h2 {
+    font-size: 24px;
+    line-height: normal;
+}
+
+
+}
+
+@media (max-width:767px) {
+    html body.croi5 #main-form::after {
+        right: 15%;
+    }
+}
+
+@media (max-width:500px) {
+    html body.croi5 .croi5-from-button {
+        margin: 0 auto;
+        width: 190px;
+    }
+
+    html body.croi5 #main-form::after {
+        right: 10%;
+        width: 70px;
+        height: 48px;
+        top: -91px;
+    }
+}
+
+@media (max-width:400px) {
+    html body.croi5 #main-form::after {
+        right: 3%;
+    }
+}
