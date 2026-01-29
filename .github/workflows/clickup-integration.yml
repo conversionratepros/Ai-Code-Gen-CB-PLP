@@ -1,0 +1,54 @@
+name: Create ClickUp Task on Commit
+
+on:
+  push:
+   
+# Test Commit Branch
+jobs:
+  create-clickup-task:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Map commit author to ClickUp user
+        id: map-user
+        run: |
+          AUTHOR_EMAIL="${{ github.event.head_commit.author.email }}"
+          
+          case "$AUTHOR_EMAIL" in
+            "zahid@conversionratepros.co.za")
+              CLICKUP_USER_ID=87751247
+              ;;
+            "mahbub@conversionraterpros.co.za")
+              CLICKUP_USER_ID=87751243
+              ;;
+            "rafee@conversionratepros.co.za")
+              CLICKUP_USER_ID=44624141
+              ;;
+            "donavan@conversionratepros.co.za")
+              CLICKUP_USER_ID=38553347
+              ;;
+            *)
+              CLICKUP_USER_ID=38553347  # Default to Donavan
+              ;;
+          esac
+          
+          echo "clickup_user_id=$CLICKUP_USER_ID" >> $GITHUB_OUTPUT
+          echo "Assigning to ClickUp user: $CLICKUP_USER_ID"
+      
+      - name: Create ClickUp Task
+        run: |
+          curl -X POST 'https://api.clickup.com/api/v2/list/901215549989/task' \
+            -H 'Authorization: ${{ secrets.CLICKUP_API_TOKEN }}' \
+            -H 'Content-Type: application/json' \
+            -d '{
+              "name": "${{ github.event.head_commit.message }} [${{ github.event.repository.name }}]",
+              "description": "**Author:** ${{ github.event.head_commit.author.name }} (${{ github.event.head_commit.author.email }})\n\n**Commit SHA:** `${{ github.sha }}`\n\n**Branch:** ${{ github.ref_name }}\n\n**Repository:** ${{ github.repository }}\n\n[View Commit on GitHub](${{ github.event.head_commit.url }})",
+              "assignees": [${{ steps.map-user.outputs.clickup_user_id }}],
+              "status": "to do"
+            }'
+      
+      - name: Confirm task creation
+        run: echo "✅ Task created and assigned to user ${{ steps.map-user.outputs.clickup_user_id }}"
